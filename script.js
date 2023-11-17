@@ -36,12 +36,14 @@ console.log("hello")
 var timeDisplayEl = $('#currentDay');
 // declare function to get the time and print to page
 function displayTime() {
-    var rightNow = dayjs().format('dddd, MMMM d YYYY');
+    var rightNow = dayjs().format('dddd, MMMM D YYYY');
     // displaying right now var to #currentDay
     timeDisplayEl.text(rightNow);
 
     
     console.log(rightNow)
   }
-//   calling the function displayTime to execute every 1000ms
-  setInterval(displayTime, 1000);
+//   calling the function displayTime 
+displayTime();
+
+var descriptionEL = document.getElementById("description")
