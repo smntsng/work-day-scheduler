@@ -31,3 +31,17 @@
 // 6. how to ensure events stay on page when refresh
 
 console.log("hello")
+
+// varible to target current day in HTML
+var timeDisplayEl = $('#currentDay');
+// declare function to get the time and print to page
+function displayTime() {
+    var rightNow = dayjs().format('dddd, MMMM d YYYY');
+    // displaying right now var to #currentDay
+    timeDisplayEl.text(rightNow);
+
+    
+    console.log(rightNow)
+  }
+//   calling the function displayTime to execute every 1000ms
+  setInterval(displayTime, 1000);
