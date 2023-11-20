@@ -61,9 +61,10 @@ var saveBtnEL = document.getElementById("saveBtn")
 var currentHour = dayjs().format('h');
 console.log("the current hours is " + currentHour)
 
-// past
-
-
-// present 
-
-// future
+if (currentHour < 9){
+    $(".9").addClass("future");
+} else if(currentHour == 9){
+    $(".9").addClass("present");
+}else if(currentHour > 9){
+    $(".9").addClass("past");
+}
