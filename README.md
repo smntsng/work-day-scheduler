@@ -9,7 +9,8 @@ The events are saved to local storage so even if a use refreshes the page, their
 ## Instructions
 ![alt text](Assets/Screenshot-2.jpg)
 1. Add an event to the time block and click save
- <br>
+ <br />
+ 
 ![alt text](Assets/screenshot-3.jpg)
 2. when you come back to this page, your event will still remain on the page.
 
