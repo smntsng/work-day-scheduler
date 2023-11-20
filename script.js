@@ -46,4 +46,24 @@ function displayTime() {
 //   calling the function displayTime excute this code ever 1000ms
 setInterval(displayTime,1000);
 
-var descriptionEL = document.getElementById("description")
+var textareaEL = document.getElementById("textarea")
+var saveBtnEL = document.getElementById("saveBtn")
+
+// textareaEL.value = localStorage.getItem('userInput1');
+// saveBtnEL.addEventListener('click', updateUserInput1);
+// //sets the input of text area into local storage
+// function updateUserInput1() {
+//     localStorage.setItem('userInput1', textareaEL.value);
+// };
+
+
+// colour coding time blocks
+var currentHour = dayjs().format('h');
+console.log("the current hours is " + currentHour)
+
+// past
+
+
+// present 
+
+// future
