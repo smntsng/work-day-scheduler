@@ -12,6 +12,7 @@ The events are saved to local storage so even if a use refreshes the page, their
  <br />
  
 ![alt text](Assets/screenshot-3.jpg)
+<br />
 2. when you come back to this page, your event will still remain on the page.
 
 
