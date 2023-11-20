@@ -68,3 +68,67 @@ if (currentHour < 9){
 }else if(currentHour > 9){
     $(".9").addClass("past");
 }
+
+if (currentHour < 10){
+    $(".10").addClass("future");
+} else if(currentHour == 10){
+    $(".10").addClass("present");
+}else if(currentHour > 10){
+    $(".10").addClass("past");
+}
+
+if (currentHour < 11){
+    $(".11").addClass("future");
+} else if(currentHour == 11){
+    $(".11").addClass("present");
+}else if(currentHour > 11){
+    $(".11").addClass("past");
+}
+
+if (currentHour < 12){
+    $(".12").addClass("future");
+} else if(currentHour == 12){
+    $(".12").addClass("present");
+}else if(currentHour > 12){
+    $(".12").addClass("past");
+}
+
+if (currentHour < 13){
+    $(".13").addClass("future");
+} else if(currentHour == 13){
+    $(".13").addClass("present");
+}else if(currentHour > 13){
+    $(".13").addClass("past");
+}
+
+if (currentHour < 14){
+    $(".14").addClass("future");
+} else if(currentHour == 14){
+    $(".14").addClass("present");
+}else if(currentHour > 14){
+    $(".14").addClass("past");
+}
+
+if (currentHour < 15){
+    $(".15").addClass("future");
+} else if(currentHour == 15){
+    $(".15").addClass("present");
+}else if(currentHour > 15){
+    $(".15").addClass("past");
+}
+
+if (currentHour < 16){
+    $(".16").addClass("future");
+} else if(currentHour == 16){
+    $(".16").addClass("present");
+}else if(currentHour > 16){
+    $(".16").addClass("past");
+}
+
+if (currentHour < 17){
+    $(".17").addClass("future");
+} else if(currentHour == 17){
+    $(".17").addClass("present");
+}else if(currentHour > 17){
+    $(".17").addClass("past");
+}
