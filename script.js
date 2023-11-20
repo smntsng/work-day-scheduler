@@ -32,16 +32,13 @@ function displayTime() {
 //   calling the function displayTime excute this code ever 1000ms
 setInterval(displayTime,1000);
 
-// var userInput1EL = document.getElementById("userInput1")
-// var saveBtnEL = document.querySelector(".saveBtn")
-
-// saveBtnEL.addEventListener("click", function(e) {
-//     console.log(e)
-// });
-
-// function updateUserInput1() {
-//     localStorage.setItem('userInput1', userInput1EL.value);
-// };
+var userInput1El = document.getElementById('userInput1');
+var saveBtnEl = document.querySelector('button');
+userInput1El.value = localStorage.getItem('userInput1');
+saveBtnEl.addEventListener('click', userText1);
+function userText1() {
+    localStorage.setItem('userInput1', userInput1El.value);
+}
 
 
 // colour coding time blocks
